@@ -11,8 +11,8 @@
   },
   "Login":{
     "id": 1,
-    "username": "username",
-    "password": "supersecretpassword"
+    "username": "admin",
+    "password": "admin123"
   },
   "Admin" :[{
     "gedung":{
