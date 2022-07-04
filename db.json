@@ -1,0 +1,49 @@
+
+
+{
+
+  "Register":{
+    "id": "",
+    "username": "",
+    "password": "",
+    "email": "",
+    "alamat": ""
+  },
+  "Login":{
+    "id": 1,
+    "username": "username",
+    "password": "supersecretpassword"
+  },
+  "Admin" :[{
+    "gedung":{
+      "message": "success",
+      "id": 1,
+      "id_review": 1,
+      "id_jenis_gedung": 1,
+      "name": "nama gedung",
+      "price": 1,
+      "latitude": 123145252,
+      "longitude": 231124145,
+      "description": "ini adalah gedung"
+    },
+    "user":
+      {
+        "message": "success",
+        "id": 1,
+        "username": "username",
+        "password": "supersecretpassword",
+        "email": "example@gmail.com",
+        "alamat": "jl.pisang gg.mawar"
+      },
+    "jenisgedung" : 
+      {
+        "id": 1,
+        "image": "ini gambar",
+        "rating": 1,
+        "description": "ini deskripsi"
+      }
+    
+    }]
+    
+    
+}
