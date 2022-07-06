@@ -14,16 +14,13 @@
     "username": "admin",
     "password": "admin123"
   },
-  "Admin" :[{
+  "Admin" :{
     "gedung":{
-      "message": "success",
       "id": 1,
-      "id_review": 1,
-      "id_jenis_gedung": 1,
-      "name": "nama gedung",
-      "price": 1,
-      "latitude": 123145252,
-      "longitude": 231124145,
+      "jenis_gedung": "low",
+      "price": 1000,
+      "latitude": -6.9170786,
+      "longitude": 107.6191283,
       "description": "ini adalah gedung"
     },
     "user":
@@ -43,7 +40,7 @@
         "description": "ini deskripsi"
       }
     
-    }]
+    }
     
     
 }

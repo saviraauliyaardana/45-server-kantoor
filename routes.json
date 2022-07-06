@@ -1,0 +1,18 @@
+{
+    "/Admin/gedung": {
+        "GET": {"gedung":{
+            "message": "success",
+            "id": 1,
+            "id_review": 1,
+            "id_jenis_gedung": 1,
+            "name": "nama gedung",
+            "price": 1,
+            "latitude": 123145252,
+            "longitude": 231124145,
+            "description": "ini adalah gedung"
+          }
+    }
+}
+}
+
+    
