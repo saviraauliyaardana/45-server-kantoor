@@ -1,15 +1,12 @@
-# 45-server-kantoor
-<!-- How to start -->
-json-server --watch db.json
-
+######################################################################################################################
 						Kantoor App
 ######################################################################################################################
-
+######################################################################################################################
 Link Deploy dari BE : https://officebooking-app-pn6n3.ondigitalocean.app
 
 Endpoint : 
 ######################################################################################################################
-<!-- Register User -->
+Register User
 	1. POST -> https://officebooking-app-pn6n3.ondigitalocean.app/register
 		Body : {
    			 "email": "ridwan@gmail.com",
@@ -39,8 +36,8 @@ Endpoint :
 			}
 
 ######################################################################################################################
-<!-- Manage Gedung  -->
-	Admin : 1. POST -> https://officebooking-app-pn6n3.ondigitalocean.app/admin/gedung
+Manage Gedung 
+	Admin : 1. POST -> hhttps://officebooking-app-pn6n3.ondigitalocean.app/admin/gedung
 			Body : {
     				"name": "The Honey Lady Building",
    				"location": "Jakarta Barat",
@@ -68,8 +65,7 @@ Endpoint :
 		   2. GET -> https://officebooking-app-pn6n3.ondigitalocean.app/gedung/price
 
 ######################################################################################################################
-<!-- Manage Nearby Facilities -->
-
+Manage Nearby Facilities
 	Admin : 1. GET -> https://officebooking-app-pn6n3.ondigitalocean.app/admin/nearby
 		2. GET -> https://officebooking-app-pn6n3.ondigitalocean.app/admin/nearby/:id (contoh = 1)
 		3. POST -> https://officebooking-app-pn6n3.ondigitalocean.app/nearby
@@ -94,8 +90,7 @@ Endpoint :
 		   2. GET -> https://officebooking-app-pn6n3.ondigitalocean.app/nearby
 
 ######################################################################################################################
-<!-- Manage Nearby Facilities -->
-
+Manage Nearby Facilities
 	Admin : 1. POST -> https://officebooking-app-pn6n3.ondigitalocean.app/review
 			Body : {
     				"rating": 5.0, (Harus pakai .0 dibelakang nya)

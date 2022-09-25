@@ -10,40 +10,47 @@
     "alamat": ""
   },
   "Login":{
-    "id": 1,
-    "username": "admin",
-    "password": "admin123"
+            "email": "ikhsan@gmail.com",
+    			 "password": "12345678"
   },
-  "Admin" :[{
+  "Admin" :{
     "gedung":{
-      "message": "success",
-      "id": 1,
-      "id_review": 1,
-      "id_jenis_gedung": 1,
-      "name": "nama gedung",
-      "price": 1,
-      "latitude": 123145252,
-      "longitude": 231124145,
-      "description": "ini adalah gedung"
+      "name": "",
+      "location": "",
+       "price": "",
+       "latitude": "",
+       "longitude": "",
+       "description": ""
     },
-    "user":
+    "gedungs":{
+      "id": 2,
+      "name": "SCBR Office Building",
+      "location": "Jakarta Selatan",
+      "price": "550000",
+      "latitude": "-6.2313212",
+      "longitude": "106.8049591",
+      "description": "Penyewaan Kantor dan Apartemen"
+    },
+    "users":
       {
-        "message": "success",
-        "id": 1,
-        "username": "username",
-        "password": "supersecretpassword",
-        "email": "example@gmail.com",
-        "alamat": "jl.pisang gg.mawar"
+        "id": 2,
+      "email": "judin@gmail.com",
+      "name": "judin",
+      "fullname": "judin fikri",
+      "alamat": "jl raya",
+      "phone": "08452723743"
       },
-    "jenisgedung" : 
+    "nearby" : 
       {
         "id": 1,
-        "image": "ini gambar",
-        "rating": 1,
-        "description": "ini deskripsi"
+      "namefacilities": "Masjid Nurul Islam",
+      "jenis": "Fasilitas Ibadah",
+      "jarak": "500 M",
+      "latitude": "-6.2300967",
+      "longtitude": "106.8065819"
       }
     
-    }]
+    }
     
     
 }
